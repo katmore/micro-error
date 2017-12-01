@@ -1,0 +1,17 @@
+{
+   "name": "MicroError",
+   "description" : "micro package for php providing a convenient means to safely avoid WSOD, and other error handling functionality",
+   "homepage":"https://github.com/katmore/micro-error",
+    "autoload": {
+        "psr-4": {
+            "MicroError\\": "src/MicroError/"
+        }
+    },
+	"license": [
+       "MIT",
+       "GPL-3.0+"
+    ],
+    "require": {
+        "php" : ">=7.1.1"
+     }    
+}
